@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block page_content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'Website.css' %}">
+<script src="{% static 'Website.js' %}"></script>
+<html>
+    <head>
+        <title>Shemar's Website</title>
+        <link rel="stylesheet" href="C:\Users\Shemar\OneDrive\Personal Projects\Portfolio Website\Website.css" >
+        <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/lightslider.js"></script>
+
+    </head>
+    <body>
+        <center>
+        <h1 class="Name">
+            Shemar Tomlinson
+        </h1>
+        </center>
+        <div class="about_wrapper">
+            <div class="about_card">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-md-6">
+                        <div class="card cards m-3 ">
+                            <div class="card-heading">About Me <hr></div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <p>Hi, my name is Shemar Tomlinson</p>
+                                    <p>I am a Computer Science graduate from the University Of Surrey<br>
+                            My interests within computer science include: Data science,
+                            Web development, Machine learning, Blockchain & App development.
+                            My other interests are Football , Formula 1, American Football , fitness and cars</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card cards m-3">
+                            <div class="card-heading">Education
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <p>Degree: Bachelor of Science (BSc)</p>
+                                    <p></p>
+                                    <p>Where: University of Surrey</p>
+                                    <p>Sep 2019 - Jun 2022</p>
+                                    <p>Field of Study: Computer Science</p>
+                                    <p>Grade: 2:1</p>
+                                    <p> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card cards m-3">
+                            <div class="card-heading">Technologies
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/512px-RStudio_logo_flat.svg.png" alt="RStudio" style="width: 300px;height: 150px;" class="border-bottom">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1920px-NumPy_logo_2020.svg.png" alt="NumPy" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1920px-Pandas_logo.svg.png" alt="Pandas" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/1920px-TensorFlow_logo.svg.png" alt="Tensorflow" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" alt="Scikit-learn" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1920px-Django_logo.svg.png" alt="Django" style="width: 300px;height: 150px;">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card cards m-3">
+                            <div class="card-heading">Skills
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div id="carouselSkills" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block" src="https://www.i2tutorials.com/wp-content/media/2020/05/R-PROGRAMMING-LANGUAGE-i2tutorials.jpg" alt="R" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://techbeacon.com/sites/default/files/styles/social/public/html5-mobile-app-native-hybrid-pros-cons.jpg?itok=R3pMKIzh" alt="HTML5" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg" alt="CSS3" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://www.nkod.rs/images/javascript.jpg" alt="JavaScript" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://miro.medium.com/max/1400/0*Zn_HDykxaSmwBcEq.png" alt="c++" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="Python" style="width: 300px;height: 150px;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block" src="https://res.cloudinary.com/practicaldev/image/fetch/s--Rxmub8vz--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jd65usaioipnkv5xs5a.png" alt="Solidity" style="width: 300px;height: 150px;">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselSkills" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselSkills" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+<!--original skills code>
+        <section class = "skills">
+            <h2>Programming Languages</h2>
+            <table>
+                <tr class = "sk">
+                    <td class = "sk">
+                        Java
+                    </td>
+                    <td> JavaScript</td>
+                    <td>Solidity </td>
+                    <td>HTML</td>
+                </tr>
+                <tr class = "sk">
+                    <td>CSS</td>
+                    <td>Python</td>
+                    <td>C++</td>
+                    <td>R</td>
+               </tr>
+            </table>
+        </section>
+
+-->
+    
+
+        <section>
+            <a href="{% url 'project_index' %}" class="btn btn-success" id="projbutton">Projects</a>
+        </section>
+<!-- Footer -->
+        <footer class="text-center text-lg-start- bg-white text-muted">
+            <section>
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block d-inline-flex justify-content-start">
+                    <span>Networks:</span>
+                </div>
+                <!-- Left -->
+                <!-- Right -->
+                <div>
+                    <a href = "https://github.com/ShemarT099" class="me-4 text-reset">
+                        <i class="fab fa-github fa-xl"></i>
+                    </a>
+                    <a href = "https://www.linkedin.com/in/shemar-tomlinson-b07a2016a/" class="me-4 link-secondary">
+                        <i class="fab fa-linkedin fa-xl"></i>
+                    </a>
+                    <a href = "mailto: shemar2595@gmail.com" class="me-4 link-secondary">
+                        <i class="fas fa-envelope me-3 fa-xl"></i>
+                    </a>
+ 
+                    
+                </div>
+            </section>
+        </footer>
+        
+        <script src="Navbar.js"></script>
+    </body>
+</html>
+{% endblock %}
